@@ -22,4 +22,11 @@ Level Progression: The player will progress through levels, each one incresing i
 
 Saving And Loading Data: The game will store what level the player has reached, so they dont have to restart the game every time they close it.
 
-Performance Requirements: 
+Performance Requirements: the game should be able to run at a stable 60fps on most windows devices and load in a short amount of time
+
+Usabillity Requirments: All the menus should be easy to navigate, clearly showing what level the user is playing, although the gameplay will not be easy to follow, since unpredictability increases the difficulty, and trains the users reaction speed.
+
+Compatibility Requirments: The game should be able to be played on any devie with a keyboard and mouse, and correct processing power.
+
+Social and ethical stuff I DONT CARE
+
