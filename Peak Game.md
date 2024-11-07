@@ -28,5 +28,48 @@ Usabillity Requirments: All the menus should be easy to navigate, clearly showin
 
 Compatibility Requirments: The game should be able to be played on any devie with a keyboard and mouse, and correct processing power.
 
-Social and ethical stuff I DONT CARE
+Social and ethical stuff
 
+Existing Idea
+Plus
+Minus
+Implication
+Just Shapes And Beats
+
+The game is simple to follow, clearly indicating attacks, while also having simple controls. It has a clear progression and increase in difficulty, while still making it fun for the player.
+The game is fairly short, and honestly, not too hard, only taking 10-25 attempts to beat even the hardest levels for your first time. It is also very simple in its art, with very little variation throughout the game.
+In my game, i will have a good progression system, with clear difficulty progression and more levels for a longer game, yet my game will be much harder overall, while keeping the simple controls. It will also have a simple yet varying and unique artstyle to make each section feel new.
+
+BEGIN Movement 
+INPUT userInput 
+IF 'A' pressed THEN 
+Move player left 
+ELSE IF 'D' pressed THEN 
+Move player right 
+ELSE IF 'Spacebar' or 'W' pressed THEN IF player touching ground THEN 
+Move player 
+END Movement
+
+BEGIN Health
+	Health = 3
+	IF player hit by attack THEN
+		Health - 1
+	IF Health = 0 THEN
+		Game over
+END Health
+
+BEGIN Level Progression
+	WHEN player selects level THEN
+		IF player doesn't have level unlocked THEN
+			Don't enter level
+		ELSE
+			Enter level
+			IF player touches endpoint THEN
+				Save level as complete
+				Unlock and move to next level
+END Level Progression
+
+BEGIN Data Saving And Loading
+	WHEN level unlocked THEN
+		Print data to save file
+END Data Saving And Loading
